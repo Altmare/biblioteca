@@ -1,0 +1,32 @@
+.table-autores {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  .cont-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .table-autores th,
+  .table-autores td {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .table-autores th {
+    background-color: #e9ecef;
+    color: #555;
+  }
+  
+  .table-autores td {
+    color: #444;
+  }
+  
+  .table-autores tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+  }

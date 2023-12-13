@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    padding: 5px;
+
+}
+nav a{
+    text-decoration: none;
+    /* color: white; */
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+.active{
+    background-color: black;
+    color: white;
+}

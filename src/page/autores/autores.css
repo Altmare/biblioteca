@@ -1,0 +1,46 @@
+
+.temas-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px;
+
+}
+
+.tabla_temas{
+    width: 250px;
+    max-width: 250px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+form{
+    width: 250px;
+    background-color: bisque;
+    padding: 50px;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
